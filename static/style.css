@@ -1,0 +1,37 @@
+@keyframes color-change {
+    0% {
+      color: rgb(231, 166, 16);
+    }
+
+    50% {
+      color: rgb(247, 22, 10);
+    }
+
+    100% {
+      color: rgb(221, 166, 16);
+    }
+  }
+
+  h1{
+    font-size: 28px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    color: rgb(231, 84, 16);
+  }
+
+  h1:hover {
+    animation: color-change 3s infinite;
+
+  }
+    
+body {
+    font-family: Arial, Helvetica, sans-serif,  sans-serif; /* Rodzina czcionek */
+    font-size: 18px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #ffffff; /* Kolor tła strony internetowej */
+    color: #000000; /* Kolor tła strony internetowej*/ 
+}
+
+h2 {
+    color: #ea8833; /* Kolor nagłówka */
+    font-size: 20px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
